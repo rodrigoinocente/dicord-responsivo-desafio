@@ -1,0 +1,75 @@
+@import url('./reset.css');
+
+p{
+    line-height: 21.79px;
+    font-size: 1rem;
+}
+
+header{
+    background-image: url('/assets/images/header-background.png');
+    background-size: cover;
+    height: 100%;
+    padding: 70px 24px;
+}
+
+header p:nth-child(1){
+    font-family: 'Luckiest Guy', cursive;
+    color: rgba(255, 255, 255, 1);
+    font-size: calc(2.3rem + 1vw);
+    letter-spacing: 2px;
+    line-height: 3.5rem;
+    width: 278px;/
+}
+
+header p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    margin: 24px 0px;
+}
+
+header #header-footer{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+}
+
+header button{
+    width: 100%;
+    padding: 16px;
+    border-radius: 100px;
+    border: none;
+}
+
+header button:nth-child(1){
+    background-color: rgba(255, 255, 255, 1);
+}
+
+header button:nth-child(2){
+    background-color: rgba(35, 39, 42, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 40px 24px;
+    gap: 27px;
+}
+
+section p:nth-of-type(1){
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 32.68px;
+}
+
+section #section4-p{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+}
+
+footer{
+    padding: 42px 0px;
+    background-color: rgba(35, 39, 42, 1);
+    display: flex;
+    justify-content: center;
+}
